@@ -18,5 +18,8 @@ public class Main {
         for (int i = 0; i < 4; i++) {
             System.out.println(random[i]);
         }
+        System.out.print(test[0] + ", " + test[1] + ", " + test[2]);
+        System.out.print("\n" + test2[0] + ", " + test2[1] + ", " + test2[2]);
+        System.out.print("\n" + random[0] + ", " + random[1] + ", " + random[2] + ", " + random[3]);
     }
 }
