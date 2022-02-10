@@ -28,14 +28,14 @@ public class Main {
                 System.out.print(test[i] + ",");
             }
 
-            }
+        }
         for (int i = 0; i < test2.length; i++) {
             if (i == test2.length - 1) {
                 System.out.println(test2[i]);
             } else {
                 System.out.print(test2[i] + ",");
             }
-            
+
         }
         for (int i = 0; i < random.length; i++) {
             if (i == random.length - 1) {
@@ -44,5 +44,18 @@ public class Main {
                 System.out.print(random[i] + ", ");
             }
         }
+        System.out.print("\n");
+        int testSize = test.length;
+        float test2Size = test2.length;
+        double randomSize = random.length;
+        int i = testSize;
+        for (; i >= test[0]; i--) {
+            if (i == test[0]) {
+                System.out.println(test[i]);
+            } else {
+                System.out.print(test[i] + ",");
+            }
         }
+
     }
+}
