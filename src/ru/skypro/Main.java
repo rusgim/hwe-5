@@ -37,25 +37,27 @@ public class Main {
                 System.out.print(random[i] + ", ");
             }
         }
-       for (int i = random.length; i == 0; i--) {
-            if (i == 0) {
-                System.out.println(random[random.length]);
+       for (int i = random.length - 1; i >= 0; i--) {
+            if (i != 0) {
+                System.out.print(random[i] + ", ");
             } else {
-                System.out.print(random[random.length] + ", ");
+                System.out.print(random[i]);
             }
         }
-       for (int i = test.length; i == 0; i--) {
-            if (i == 0) {
-                System.out.println(test[i]);
-            } else {
+        System.out.print("\n");
+       for (int i = test.length - 1; i >= 0; i--) {
+            if (i != 0) {
                 System.out.print(test[i] + ", ");
+            } else {
+                System.out.print(test[i]);
             }
         }
-        for (int i = test2.length; i == 0; i--) {
-            if (i == 0) {
-                System.out.println(test2[i]);
-            } else {
+        System.out.print("\n");
+        for (int i = test2.length - 1; i >= 0; i--) {
+            if (i != 0) {
                 System.out.print(test2[i] + ", ");
+            } else {
+                System.out.print(test2[i]);
             }
         }
     }
