@@ -7,7 +7,6 @@ public class Main {
         test[0] = 1;
         test[1] = 2;
         test[2] = 3;
-
         float[] test2 = {1.57f, 7.654f, 9.986f};
         System.out.println("\n");
         double[] random = new double[4];
@@ -15,7 +14,6 @@ public class Main {
         random[1] = 2.77;
         random[2] = 3.996589;
         random[3] = 7.785963214598;
-
         for (int i = 0; i < test.length; i++) {
             if (i == test.length - 1) {
                 System.out.println(test[i]);
